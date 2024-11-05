@@ -17,5 +17,5 @@ jobs:
     - name: Build the Docker image
       run: |
         docker build . --file Dockerfile --tag cr.jedlik.cloud/html-oliverdremak:0.1
-        docker push cr.jedlik.cloud/html-OliverDremak:0.1
+        docker push cr.jedlik.cloud/html-oliverdremak:0.1
 
